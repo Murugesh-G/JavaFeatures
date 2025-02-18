@@ -1,5 +1,7 @@
 package com.mg.problems;
 
+import com.mg.problems.pojo.Employee;
+
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
