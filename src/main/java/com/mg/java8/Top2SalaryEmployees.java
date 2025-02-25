@@ -1,6 +1,6 @@
 package com.mg.java8;
 
-import com.mg.problems.pojo.EmployeeSalaryPOJO;
+import com.mg.pojo.EmployeeSalaryPOJO;
 
 import java.util.Arrays;
 import java.util.Comparator;

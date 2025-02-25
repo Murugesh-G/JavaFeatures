@@ -1,4 +1,4 @@
-package com.mg.problems.pojo;
+package com.mg.pojo;
 
 import java.util.Objects;
 

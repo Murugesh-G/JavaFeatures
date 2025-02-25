@@ -1,6 +1,6 @@
 package com.mg.problems;
 
-import com.mg.problems.pojo.EmployeeListToMap;
+import com.mg.pojo.EmployeeListToMap;
 
 import java.util.Arrays;
 import java.util.List;

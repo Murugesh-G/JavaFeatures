@@ -1,17 +1,15 @@
-package com.mg.problems.pojo;
+package com.mg.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
 import lombok.ToString;
 
 @AllArgsConstructor
 @Getter
-@Setter
 @ToString
-public class EmployeeFilter {
+public class EmployeeListToMap {
+    private int id;
     private String name;
-    private String gender;
-    private int age;
+    private String department;
     private double salary;
 }

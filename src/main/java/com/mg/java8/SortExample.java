@@ -1,6 +1,6 @@
 package com.mg.java8;
 
-import com.mg.problems.pojo.PersonPOJO;
+import com.mg.pojo.PersonPOJO;
 
 import java.util.Arrays;
 import java.util.Comparator;

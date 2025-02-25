@@ -1,6 +1,6 @@
 package com.mg.problems;
 
-import com.mg.problems.pojo.EmployeeFilter;
+import com.mg.pojo.EmployeeFilter;
 
 import java.util.Arrays;
 import java.util.List;
