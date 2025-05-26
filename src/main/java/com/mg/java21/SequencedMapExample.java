@@ -7,18 +7,16 @@ import java.util.SequencedMap;
 public class SequencedMapExample {
     public static void main(String[] args) {
         SequencedMap<Integer, String> map = new LinkedHashMap<>();
-        map.put(1, "A");
-        map.put(2, "B");
-        map.put(3, "C");
-        System.out.println(map.firstEntry());
-        System.out.println(map.lastEntry());
+        map.put(1, "One");
+        map.put(2, "Two");
+        map.putFirst(0, "Zero");
 
-        map.putFirst(0, "Z");
-        map.putLast(4, "D");
+        System.out.println("Map: " + map);
+        System.out.println("First Entry: " + map.firstEntry());
+        System.out.println("Last Entry: " + map.lastEntry());
 
-        System.out.println(map);
-
-        System.out.println(map.reversed());
+        SequencedMap<Integer, String> reversed = map.reversed();
+        System.out.println("Reversed Map: " + reversed);
 
 
     }
