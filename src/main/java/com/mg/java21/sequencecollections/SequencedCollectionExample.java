@@ -6,17 +6,23 @@ import java.util.SequencedCollection;
 
 public class SequencedCollectionExample {
     public static void main(String[] args) {
-        SequencedCollection<String> list = new ArrayList<>();
-        list.addFirst("B");
-        list.addLast("C");
-        list.addFirst("A");
+        SequencedCollection<String> fruits = new ArrayList<>(List.of("Apple", "Banana", "Cherry"));
 
-        System.out.println("List: " + list);
-        System.out.println("First: " + list.getFirst());
-        System.out.println("Last: " + list.getLast());
+        System.out.println("First: " + fruits.getFirst());
+        System.out.println("Last: " + fruits.getLast());
 
-        SequencedCollection<String> reversed = list.reversed();
-        System.out.println("Reversed: " + reversed);
+        fruits.addFirst("Mango");
+        fruits.addLast("Orange");
+
+        System.out.println("After addFirst and addLast: " + fruits);
+
+        fruits.removeFirst();
+        fruits.removeLast();
+
+        System.out.println("After removeFirst and removeLast: " + fruits);
+
+        System.out.println("Reversed: " + fruits.reversed());
+
 
     }
 }
