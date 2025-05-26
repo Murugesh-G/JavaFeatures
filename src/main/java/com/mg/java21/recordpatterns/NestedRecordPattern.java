@@ -1,4 +1,4 @@
-package com.mg.java21;
+package com.mg.java21.recordpatterns;
 
 public class NestedRecordPattern {
     public static void main(String[] args) {

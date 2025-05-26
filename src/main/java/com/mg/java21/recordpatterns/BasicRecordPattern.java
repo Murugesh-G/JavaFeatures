@@ -1,4 +1,4 @@
-package com.mg.java21;
+package com.mg.java21.recordpatterns;
 
 public class BasicRecordPattern {
     public static void main(String[] args) {

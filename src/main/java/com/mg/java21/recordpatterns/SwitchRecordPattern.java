@@ -1,4 +1,7 @@
-package com.mg.java21;
+package com.mg.java21.recordpatterns;
+
+import com.mg.java21.recordpatterns.Address;
+import com.mg.java21.recordpatterns.Person2;
 
 public class SwitchRecordPattern {
 

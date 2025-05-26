@@ -1,4 +1,4 @@
-package com.mg.java21;
+package com.mg.java21.sequencecollections;
 
 import java.util.LinkedHashMap;
 import java.util.SequencedCollection;
